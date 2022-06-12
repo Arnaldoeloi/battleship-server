@@ -205,7 +205,7 @@ wss.on('connection', (ws, request, client) => {
     // ws.send('Hi there, I am a WebSocket server');
 });
 //start our server
-server.listen(process.env.PORT || 8080, () => {
+server.listen(process.env.PORT || 8081, () => {
     console.log(`Server started :)))))`);
 });
 //# sourceMappingURL=server.js.map
